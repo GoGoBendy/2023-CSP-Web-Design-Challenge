@@ -71,3 +71,7 @@ h1  {
   background-color: white;
   color: black;
 }
+
+.next {
+  text-align: right;
+}
