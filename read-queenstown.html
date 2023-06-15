@@ -6,3 +6,19 @@
   <a class="active nav-link" href="queenstown.html">Queenstown</a>
   <a class="nav-link" href="world-war-one.html">WW1</a>
 </nav>
+
+
+
+<p>Title: <span id="printedtitle"></span></p>
+<p>Story: <span id="printedstory"></span></p>
+<p>Created by: <span id="printedname"></span></p>
+
+<script>
+  var title = localStorage.getItem("title");
+  var story = localStorage.getItem("story");
+  var name = localStorage.getItem("name");
+
+  document.getElementById("printedtitle").textContent = title;
+  document.getElementById("printedstory").textContent = story;
+  document.getElementById("printedname").textContent = name;
+</script>

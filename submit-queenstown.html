@@ -7,7 +7,7 @@
   <a class="nav-link" href="world-war-one.html">WW1</a>
 </nav>
 
-<form>
+<form id="myForm">
   <h1>Submit Stories</h1>
   <div>
     <label for="name">Name</label>
@@ -35,3 +35,19 @@
     <a href="success.html"><input class="button" type="submit" value="Submit"></a>
   </div>
 </form>
+
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var story = document.getElementById("story").value;
+    var title = document.getElementById("title").value;
+    var name =document.getElementById("name").value;
+
+    localStorage.setItem("story", story);
+    localStorage.setItem("title", title);
+    localStorage.setItem("name", name);
+
+    window.location.href = "read-queenstown.html";
+  });
+</script>
