@@ -1,0 +1,60 @@
+body    {
+    background-image: url(https://th.bing.com/th/id/R.fc88100609c6870c361d652abb9e8786?rik=ccJDVwMm8J5jZA&riu=http%3a%2f%2fwww.luex.com%2fmagazine%2fwp-content%2fuploads%2f2017%2f06%2fSkyling-Queenstown-New-Zealand.jpg&ehk=AFj2%2b7z5%2bcdt2vVBxmjghTSms%2bMGIc%2bTSEOiwhx4U%2b8%3d&risl=&pid=ImgRaw&r=0);
+}
+
+html, body {
+    height: 100%;
+    margin: 2px;
+    border: rgb(0, 0, 0, 0.5);
+}
+
+* {
+    font-family: sans-serif;
+  }
+  
+  h1  {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  nav {
+    padding: 10px;
+    font-size: 20px;
+    }
+    
+    
+  .nav-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: dimgray;
+    text-decoration: none;
+  }
+    
+  .nav-link:hover {
+    font-weight: bold;
+    color: black;
+    border-bottom: 4px solid black;
+  }
+    
+  .active  {
+    font-weight: bold;
+    color: black;
+    border-bottom: 4px solid black;
+  }
+    
+  .queenstown  {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .queenstown:hover  {
+    background-color: white;
+    color: black;
+  }
