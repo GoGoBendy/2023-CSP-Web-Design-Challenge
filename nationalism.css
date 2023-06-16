@@ -82,8 +82,9 @@
   .diagram  {
     border: 4px solid black;
     border-radius: 5px;
-    width: 600px;
-    height: 400px;
+    float: right;
+    height: auto;
+    width: 500px;
   }
   
   .main {

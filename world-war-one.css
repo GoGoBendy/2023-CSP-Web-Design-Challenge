@@ -84,6 +84,8 @@ h1  {
   border-radius: 5px;
   width: 600px;
   height: 400px;
+  margin-left: auto;
+  float: right;
 }
 
 .main {
