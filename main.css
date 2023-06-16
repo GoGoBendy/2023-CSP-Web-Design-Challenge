@@ -48,3 +48,12 @@ nav {
   background-color: white;
   color: black;
 }
+
+.title  {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.createdby  {
+  font-weight: bold;
+}
